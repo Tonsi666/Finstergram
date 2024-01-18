@@ -1,0 +1,48 @@
+img{
+    width: 180px;
+    height: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: rgb(84, 120, 251);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(42, 42, 253);
+}
+
+.SignIn{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(84, 120, 251);
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.SignIn:hover{
+    background-color: white;
+    color: rgb(0, 0, 114);
+}
+
+.Home{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}

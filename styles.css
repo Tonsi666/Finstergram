@@ -142,8 +142,9 @@ button:hover{
 
 .column{
     margin-top: 2px;
-    display:flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
 }
 
 .gallery-img{
@@ -153,12 +154,18 @@ button:hover{
 }
 
 @media screen and (max-width:911px) {
+    .column {
+        grid-template-columns: auto auto;
+    }
     .gallery {
         width: 608px;
     }
 }
 
 @media screen and (max-width:607px) {
+    .column {
+        grid-template-columns: auto;
+    }
     .gallery {
         width: 304px;
     }

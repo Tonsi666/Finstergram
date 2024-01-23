@@ -4,9 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="variables.css">
         <title>Login</title>
     </head>
-    <body>
+    <body class="loginBody">
+        <div class="formular">
+            <form>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Passwort:</label>
+                <input type="password" id="password" name="password" required>
+                <input onclick="saveData(event)" type="submit" value="Absenden">
+            </form>
+            <p id="output"></p>
+        </div>
+        <script>
+            function saveData(event) {
+              event.preventDefault();
+
+              var contact = {
+                "email": document.getElementById("email").value,
+                "password": document.getElementById("password").value
+              };
+              document.getElementById("output").innerText = JSON.stringify(contact);
+            }
+          </script>
         <button class="Home" onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/index.html';">Home</button>
     </body>
 </html>

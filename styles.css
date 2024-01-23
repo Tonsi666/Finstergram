@@ -1,16 +1,16 @@
-body{
+body {
     margin: 0px;
     font-family: arial;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: flex-start;
     width: 180px;
     height: 40px;
 }
 
-.navbar{
+.navbar {
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -22,8 +22,8 @@ body{
     height: 40px;
 }
 
-.inlay{
-    display:flex;
+.inlay {
+    display: flex;
     justify-content: space-between;
     width: 912px;
     height: 100%;
@@ -31,12 +31,12 @@ body{
     margin: auto;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-button{
+button {
     background-color: rgb(239, 239, 239);
     border: none;
     border-radius: 5px;
@@ -47,11 +47,11 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(172, 172, 172);
 }
 
-.Login{
+.Login {
     background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
@@ -62,11 +62,11 @@ button:hover{
     cursor: pointer;
 }
 
-.Login:hover{
+.Login:hover {
     background-color: var(--secondary-color);
 }
 
-.SignIn{
+.signup {
     background-color: white;
     border: none;
     border-radius: 5px;
@@ -76,12 +76,12 @@ button:hover{
     font-size: 20px;
 }
 
-.SignIn:hover{
+.signup:hover {
     background-color: white;
     color: var(--secondary-color);
 }
 
-.Home{
+.Home {
     background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
@@ -91,14 +91,14 @@ button:hover{
 }
 
 .profil {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     min-width: 500px;
     height: 100%;
     margin-top: 100px;
 }
 
-.profil-kram{
+.profil-kram {
     width: 100%;
 }
 
@@ -111,8 +111,7 @@ button:hover{
     width: 180px;
 }
 
-.profil-info {
-}
+.profil-info {}
 
 .profil-stats {
     margin-top: 15px;
@@ -123,17 +122,17 @@ button:hover{
 
 }
 
-.flexbox{
-    display:flex;
+.flexbox {
+    display: flex;
     justify-content: center;
 }
 
-.stat{
+.stat {
     margin-right: 10px;
 }
 
-.gallery{
-    display:flex;
+.gallery {
+    display: flex;
     justify-content: center;
     width: 912px;
     height: 100%;
@@ -141,14 +140,14 @@ button:hover{
     margin: auto;
 }
 
-.column{
+.column {
     margin-top: 2px;
     display: grid;
     gap: 5px;
     grid-template-columns: auto auto auto;
 }
 
-.gallery-img{
+.gallery-img {
     width: 300px;
     height: 300px;
     margin: 2px;
@@ -158,6 +157,7 @@ button:hover{
     .column {
         grid-template-columns: auto auto;
     }
+
     .gallery {
         width: 608px;
     }
@@ -167,6 +167,7 @@ button:hover{
     .column {
         grid-template-columns: auto;
     }
+
     .gallery {
         width: 304px;
     }
@@ -192,5 +193,42 @@ footer {
     justify-content: space-evenly;
     font-size: 80%;
     color: #737373;
-    width: 40%;
+    width: 30%;
 }
+
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formular {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2072b3;
+  }

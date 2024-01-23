@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="variables.css">
+        <title>SignIn</title>
+    </head>
+    <body class="signupBody">
+        <div class="formular">
+            <form  method="post">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Passwort:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="button" onclick="saveData(); this.form.reset()">Absenden</button>
+            </form>
+            <br>
+            </div>
+            <div id="output"></div>
+            <script>
+            function saveData() {
+                var email = document.getElementById("email").value;
+                var password = document.getElementById("password").value;
+                var username = document.getElementById("username").value;
+                var data = {
+                "email": email,
+                "password": password,
+                "username": username
+                };
+                document.getElementById("output").innerHTML = JSON.stringify(data);
+            }
+            </script>
+        <button class="Home" onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/index.html';">Home</button>
+    </body>
+</html>

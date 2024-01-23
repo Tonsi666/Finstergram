@@ -11,6 +11,7 @@ body{
 }
 
 .navbar{
+    background-color: white;
     display: flex;
     justify-content: space-around;
     border-bottom: solid 1px;
@@ -169,4 +170,27 @@ button:hover{
     .gallery {
         width: 304px;
     }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Impressum {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 80%;
+    color: #737373;
+    width: 90%;
+}
+
+.Fußzeile {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 80%;
+    color: #737373;
+    width: 40%;
 }

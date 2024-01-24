@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="variables.css">
-        <title>Finstergram</title>
-    </head>
-    <body>
-        <section>
-            <nav class="navbar">
-                <div class="inlay">
-                    <a href="C:/Users/tonis/Documents/GitHub/Finstergram/index.html"><img class="logo" src="C:\Users\tonis\Pictures\finstergram.png"></a>
-                    <div class="container">
-                        <button class="Login" onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/login.html';">Login</button>
-                        <button class="signup" onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/signup.html';">Sign up</button>
-                    </div>
-                </div>
-            </nav>
-            <div class="flexbox">
-                <div class="profil">
-                    <div class="profil-bild">
-                        <img class="profil-bild-img" src="C:\Users\tonis\Pictures\techstarter_gmbh_logo.jpg">
-                    </div>
-                    <div class="profil-kram">
-                        <div class="profil-info">
-                            <label> Techstarter</label>
-                            <button> follow </button>
-                            <button> send message </button>
-                            <button> ... </button>
-                        </div>
-                        <div class="profil-stats">
-                            <label class="stat"> 4 Beiträge </label>
-                            <label class="stat"> 73 Follower </label>
-                            <label class="stat"> 20 gefolgt </label>
-                        </div>
-                        <div class="profil-bio">
-                            <h5>T E C H S T A R T E R</h5>
-                            <h5>Bildung</h5>
-                            <h5>☁️ in 12 Monaten zum Cloud Spezialist</h5>
-                            <h5>🏠 100% online</h5>
-                            <h5>✍🏼 Kursstart: 22.01.2024</h5>
-                            <h5>💻 Laptop inklusive</h5>
-                            <h5>Informiere dich jetzt ⤵</h5>
-                            <h5>Herzogspitalstr. 24, Munich, Germany 80331</h5>
-                            <h5 href="">linktr.ee/techstarter</h5>
-                        </div>
-                    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="variables.css">
+    <title>Finstergram</title>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="inlay">
+                <a href="C:/Users/tonis/Documents/GitHub/Finstergram/index.html"><img class="logo"
+                        src="C:\Users\tonis\Pictures\finstergram.png"></a>
+                <div class="container">
+                    <button class="Login"
+                        onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/login.html';">Login</button>
+                    <button class="signup"
+                        onclick="window.location.href='C:/Users/tonis/Documents/GitHub/Finstergram/signup.html';">Sign
+                        up</button>
                 </div>
             </div>
-            <div class="gallery">
-                <div class="column">
-                    <img class="gallery-img" src="C:\Users\tonis\Pictures\Bild1.jpg">
-                    <img class="gallery-img" src="C:\Users\tonis\Pictures\Bild2.jpg">
-                    <img class="gallery-img" src="C:\Users\tonis\Pictures\Bild3.jpg">
-                    <img class="gallery-img" src="C:\Users\tonis\Pictures\Bild4.jpg">
+        </nav>
+        <div class="flexbox">
+            <div class="profil">
+                <div class="profil-bild">
+                    <img class="profil-bild-img" src="C:\Users\tonis\Pictures\techstarter_gmbh_logo.jpg">
+                </div>
+                <div class="profil-kram">
+                    <div class="profil-info">
+                        <label> Techstarter</label>
+                        <button> follow </button>
+                        <button> send message </button>
+                        <button> ... </button>
+                    </div>
+                    <div class="profil-stats">
+                        <label class="stat"> 4 Beiträge </label>
+                        <label class="stat"> 73 Follower </label>
+                        <label class="stat"> 20 gefolgt </label>
+                    </div>
+                    <div class="profil-bio">
+                        <h5>T E C H S T A R T E R</h5>
+                        <h5>Bildung</h5>
+                        <h5>☁️ in 12 Monaten zum Cloud Spezialist</h5>
+                        <h5>🏠 100% online</h5>
+                        <h5>✍🏼 Kursstart: 22.01.2024</h5>
+                        <h5>💻 Laptop inklusive</h5>
+                        <h5>Informiere dich jetzt ⤵</h5>
+                        <h5>Herzogspitalstr. 24, Munich, Germany 80331</h5>
+                        <h5 href="">linktr.ee/techstarter</h5>
+                    </div>
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="Impressum">
-                <p>Meta</p>
-                <p>Info</p>
-                <p>Blog</p>
-                <p>Jobs</p>
-                <p>Hilfe</p>
-                <p>API</p>
-                <p>Datenrichtlinie</p>
-                <p>Cookie-Einstellungen</p>
-                <p>Nutzungsbedingungen und Impressum</p>
-                <p>UrhDaG/MStV</p>
-                <p>Standorte</p>
-                <p>Instagram Lite</p>
-                <p>Threads</p>
-                <p>Hochladen von Kontakten und Nicht-Nutzer</p>
-                <p>Meta Verified</p>
-            </div>
-            <div class="Fußzeile">
-                <p>Deutsch</p>
-                <p>© 2024 Instagram from Meta</p>
-            </div>
-        </footer>
-        </body>
+        </div>
+        <div class="gallery">
+            <div id="loading">Loading...</div>
+            <div id="imageGrid" class="grid-container"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="Impressum">
+            <p>Meta</p>
+            <p>Info</p>
+            <p>Blog</p>
+            <p>Jobs</p>
+            <p>Hilfe</p>
+            <p>API</p>
+            <p>Datenrichtlinie</p>
+            <p>Cookie-Einstellungen</p>
+            <p>Nutzungsbedingungen und Impressum</p>
+            <p>UrhDaG/MStV</p>
+            <p>Standorte</p>
+            <p>Instagram Lite</p>
+            <p>Threads</p>
+            <p>Hochladen von Kontakten und Nicht-Nutzer</p>
+            <p>Meta Verified</p>
+        </div>
+        <div class="Fußzeile">
+            <p>Deutsch</p>
+            <p>© 2024 Instagram from Meta</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const jsonData = {
+        images: [
+            "./Bilder/Bild1.jpg",
+            "./Bilder/Bild2.jpg",
+            "./Bilder/Bild3.jpg",
+            "./Bilder/Bild4.jpg",
+        ]
+    };
+    function simulateDatabaseQuery(callback) {
+        // Simuliere eine Datenbankabfrage mit einem Timeout von 2 Sekunden
+        setTimeout(callback, 2000);
+    }
+
+    function loadImages() {
+        const loadingDiv = document.getElementById('loading');
+        var imageGrid = document.getElementById('imageGrid');
+
+        // Zeige den Ladebildschirm an
+        loadingDiv.style.display = 'block';
+
+        // Simuliere die Datenbankabfrage
+        simulateDatabaseQuery(function () {
+            // Verstecke den Ladebildschirm nach der Datenbankabfrage
+            loadingDiv.style.display = 'none';
+
+            // Iteriere durch die Bild-URLs im JSON-Objekt
+            jsonData.images.forEach(function (imageUrl) {
+                const imageContainer = document.createElement('div');
+                imageContainer.className = 'image-container';
+
+                const imageElement = document.createElement('img');
+                imageElement.src = imageUrl;
+                imageElement.classList.add('gallery-img');
+
+                imageContainer.appendChild(imageElement);
+                imageGrid.appendChild(imageContainer);
+            });
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', loadImages);
+
+</script>
+
 </html>

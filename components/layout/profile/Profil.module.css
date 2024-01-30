@@ -1,0 +1,37 @@
+.profil {
+  display: flex;
+  justify-content: space-around;
+  min-width: 500px;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.profil-kram {
+  width: 100%;
+}
+
+.profil-bild {
+  padding: 40px;
+}
+
+.profil-bild-img {
+  height: 180px;
+  width: 180px;
+}
+
+.profil-stats {
+  margin-top: 15px;
+}
+
+.profil-bio {
+  line-height: 0.01;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.stat {
+  margin-right: 10px;
+}
